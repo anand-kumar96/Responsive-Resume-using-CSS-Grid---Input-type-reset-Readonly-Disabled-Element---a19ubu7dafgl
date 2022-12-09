@@ -63,10 +63,10 @@ section {
     padding: 0 0 0.5rem 0;
 }
 .description{
-    color: white;
-    font-size: 0.80rem;
+    font-size: 0.75rem;
     text-align: center;
     padding: 1rem;
+    color: white;
 }
 .icon {
     width: 30px;
@@ -91,27 +91,25 @@ section {
 .contact-details >li >p{
     font-size: 0.75rem;
 }
-.skills-item{
-    margin: 30px 0 0 0;
-}
+
 .skills{
     color: white;
-    font-size: 1rem;
-    padding: 0 0 0.5rem 0;
+    text-align: center;
+    font-size: 0.75rem;
     text-transform: uppercase;
+    padding: 1rem 0.5rem;
 }
 .skill-name{
     font-size: 0.65rem;
     text-align: left;
-    padding: 0 0 0.2rem 0;
+    padding-bottom: 0.5rem;
     color: white;
     
 }
 .progress-bar{
-    height: 5px;
+    height: 4px;
     border: 1px solid whites;
-    background-color: #fff;
-    margin: 0 0 4px 0;
+    background-color: white;
 } 
 #DSA {
     width: 95%;
@@ -132,10 +130,7 @@ section {
 .right-main-content {
     padding: 5rem 3rem;
 }
-#other{
-margin: 30px 0 0 0;
-}
-  .skill-item-box {
+  #skill{
     opacity: 90%;
     margin:0 0 1em 0;
     padding: 0.25em 1em;
@@ -143,7 +138,7 @@ margin: 30px 0 0 0;
     background-size: 10px 10px;
     color: white;
     border-radius: 7px;
-    width: 180px ;
+    width: 200px ;
     height: 28px;
     display: flex;
     justify-content: left;
