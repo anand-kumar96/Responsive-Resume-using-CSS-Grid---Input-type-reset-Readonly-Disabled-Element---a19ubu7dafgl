@@ -1,35 +1,238 @@
 <!DOCTYPE html>
-<html lang="en">        
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Resume</title>
-        
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="./style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <main class="main-content">
 
-    </head>
-    <body>
-        <main class="main-content" contenteditable="true">
-            <section class="left-section">
-                 <div class="left-content">
-                    <!-- Write code for the left section here -->
-                </div>
-            </div>
-            </section>
+      <section class="left-section">
+            <div class="left-content">
 
-            <section class="right-section"> 
-                <div class="right-main-content">
+             <div class="profile-Details">
+                <img class="profile-pic" src="./images/profilepic.jpg" alt="profilepic">
+                <h2 class="name">Anand Kumar</h2>
+                <h5 class="designation">Full Stack Developer</h5>
+                <hr>
+                <p class="description">Full Stack Developer | Web Developer | HTML | CSS | Bootstrap | JavaScript</p>
+
+
+                  <div class="contact-item">
+
+                    <div class="social-media">
+                    <li class="icon"><a href="https://www.linkedin.com/in/anand-kumar96/"><img src="./images/linkedin.png" alt="linkedin"></a></li>
+                    <li class="icon"><a href="https://github.com/Anand-kumar96"><img src="./images/github.png" alt="github"></a></li>
+                    <li class="icon"><a href="https://leetcode.com/anandaryan542/"><img src="./images/leetcode.png" alt="leetcode"></a></li>
+                    <li class="icon"><a href="https://auth.geeksforgeeks.org/user/anandarphie"><img src="./images/geeksforgeeks.png" alt="geeksforgeeks"></a></li>
+                    </div>  <!--social-media -->
+
+                    <div class="contact-details">
+                        <li class="icon"><img src="./images/email.png" alt="Email Address"><p>anandkrsingh2596@gmail.com</p></li>
+                        <li class="icon"><img src="./images/telephone.png" alt="Contact Number"><p>7541850401</p></li>
+                        <li class="icon"><img src="./images/address.png" alt="Address"><p>Dehri-On-Sone, Rohtas, Bihar</p></li>
+                    </div> <!--contact-details -->
                     
-                    <!-- Write code for the right section here -->
+                  </div><!--contact-item -->
+
+
+
+                  <div class="skills-item">
+
+                   <h2 class="skills">Technical Skills</h2>
+                    <div class="skills">
+                    <h2 class="skill-name">DSA</h2>
+                    <div class="progress-bar-DSA" id="bar"></div>
+                   </div>
+
+                   <div class="skills">
+                    <h2 class="skill-name">HTML</h2>
+                    <div class="progress-bar-HTML" id="bar"></div>
+                   </div>
+
+                   <div class="skills">
+                    <h2 class="skill-name">CSS</h2>
+                    <div class="progress-bar-CSS" id="bar"></div>
+                   </div>
+                   <div class="skills">
+                    <h2 class="skill-name">JS</h2>
+                    <div class="progress-bar-JS" id="bar"></div>
+                   </div>
+                   <div class="skills">
+                    <h2 class="skill-name">React</h2>
+                    <div class="progress-bar-React" id="bar"></div>
+                   </div>
+                  </div> <!--skills-item -->
+
+                   <h2 class="skills" id="other">Soft Skills</h2>
+                    <div class="skills-description">
+                    <div class="skill-item-box">
+                      <div class="">Quick Learner</div>
+                    </div>
+                    <div class="skill-item-box">
+                      <div class="">Teamwork</div>
+                    </div>
+                    <div class="skill-item-box">
+                      <div class="">Communication Skills</div>
+                    </div>
+                    <div class="skill-item-box">
+                      <div class="">Time Management</div>
+                    </div>
+                    <div class="skill-item-box">
+                      <div class="">Problems Solving Skills</div>
+                    </div>
+                    
+                    </div>
+                    
+               
+
+             </div><!--profile-Details -->
+
+
+            </div><!--left- content -->
+        </section> <!--left- section -->
+
+
+
+
+      <section class="right-section">
+        <div class="right-main-content">
+
+          <section class="about-me">
+            <h2 class="right-title" id="heading">About Me</h2>
+           <p>I am a skilled, ambitious, hardworking ,creative individual, who is ready to adapt to new technologies. My key strength is communication through which I am able to build strong relationship with people I work with. I understand the importance of being interactive and enjoy communicating with others.</p>
+          </section>
+
+          <section class="experience">
+          <h2 class="right-title" id="heading">Experience</h2>
+          <h3>Internship and Certifications</h3>
+          <div class="experience-item">
+          <div class="experience-details">
+                <h4>Full Stack Web Development Bootcamp Training</h4>
+                <ul class="list">
+                    <li>Data Structure,Full Stack  Web development <br> and problems solving skills.</li>
+                    <li>Tech Stacks : HTML, CSS, JavaScript and React.</li>
+                    <li>Participated in various coding competitions held by Newton School.</li>
+                    <li>Worked on various projects.</li>    
+                </ul>
+            </div>
+
+            <div class="compony">
+                <h4>Newton School</h4>
+                <h4>May 2022-present</h4>
+            </div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-details">
+                  <h4>Vocational training at NTPC Limited, Farakka</h4>
+                  <ul class="list">
+                      <li>Learnt about production of Electricity, Principle of Steam Power Plant and Power Disytibution.</li>
+                      <li>Working of Coal Handling Plant, Demineral Plant</li>
+                      <li>Functionality of H.T & L.T Switch Gear.</li>   
+                  </ul>
+              </div>
+  
+              <div class="compony">
+                  <h4>NTPC, West Bengal </h4>
+                  <h4>Jun 2018-Jul 2018</h4>
+              </div>
+            </div>
+          <div class="experience-item">
+            <div class="experience-details">
+                  <h4>Vocational training at Mejia Thermal Power Station</h4>
+                  <ul class="list">
+                      <li>Learnt about Mechanical operations of Water Treatment, DM Plant, Coal Handling Plant and Ash Handling Plant.</li>
+                      <li>Working of Cooling Tower, Schemes in SwitchYard.</li>
+                  </ul>
+              </div>
+  
+              <div class="compony">
+                  <h4>D.V.C, West Bengal </h4>
+                  <h4>Jul 2017-Aug 2017</h4>
+              </div>
+            </div>
+            
+          </section> <!-- exp-item -->
+           
+          <section class="project">
+            <h2 class="right-title" id="heading">Projects</h2>
+            
+            <div class="porject-item">
+                <div class="porject-details">
+                    <h3>Verify Account UI</h3>
+                    <ul class="list">
+                        <li>User Interface for client side web page<br> to get OTP from user.</li>
+                        <li>Tech stacks : HTML, CSS, JavaScript.</li>
+                    </ul>
+                </div><!-- porject-01 -->
+                <div class="compony">
+                    <h4>Newton School</h4>
+                    <h4>Nov 2022-Nov 2022</h4>
                 </div>
-            </section>
-        </main>
-    </body>
-</html> 
+            </div><!-- porject-item -->
+
+
+            <div class="porject-item">
+                <div class="porject-details">
+                    <h3>Mobile Tab Navigation
+                    </h3>
+                    <ul class="list">
+                        <li>A responsive mobile tab navigation.</li>
+                        <li>Tech stacks : HTML, CSS, JavaScript.</li>
+                    </ul>
+                  </div><!-- porject-details -->
+                <div class="compony">
+                    <h4>Newton School</h4>
+                    <h4>Oct 2022-Nov 2022</h4>
+                </div>
+              </div><!-- porject-item -->
+
+          </section> <!-- project -->
+          
+
+          <section class="education">
+          <h2 class="right-title" id="heading">Education</h2>
+
+          <div class="education-item">
+            <div class="education-details">
+                <h4>Bachelor Of Engineering</h4>
+                <ul class="list">
+                    <li>Graduated in Electrical Engineering from University Institute of Technology, Burdwan University, Burdwan .</li>
+                </ul>
+            </div>
+            <div class="university-year">
+                <h4>Burdwan University</h4>
+                <h4>2015-2019</h4>
+            </div>
+        </div>
+
+        <div class="education-item">
+            <div class="education-details">
+                <h4>Intermidiate</h4>
+                <ul class="list">
+                    <li>Intermidiate in Science from R.K.S. Inter College Dalmianagar, Dehri-on-Sone</li>
+                </ul>
+            </div>
+            <div class="university-year">
+                <h4>R.K.S. Inter College</h4>
+                <h4>2012-2014</h4>
+            </div>
+        </div>
+        
+          </section><!-- education -->
+           
+        </div>
+
+      </section> <!--right- section -->
+
+     </main>  <!-- main content -->
+    
+</body>
+</html>

@@ -6,4 +6,184 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Write CSS code below */
+body {
+    background-color: #93aeb9;
+    display: block;
+    margin: 0;
+}
+
+section {
+    display: block;
+}
+
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 300px 700px;
+}
+.left-section{
+    grid-column: span 1;
+    background-color: #304e41;
+}
+
+.right-section{
+    grid-column: span 1 / span 2;
+    background-color: #f7f7f7;
+}
+.left-content {
+    padding: 1rem;
+}
+.profile-Details{
+    margin: 30px 0 0 0;
+}
+.profile-pic{
+    display: block;
+    margin: auto;
+    border: 4px solid white;
+    border-radius: 30%;
+    width: 60%;
+    object-fit: cover;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+}
+.designation{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 0 0.5rem 0;
+}
+.description{
+    color: white;
+    font-size: 0.80rem;
+    text-align: center;
+    padding: 1rem;
+}
+.icon {
+    width: 30px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    color: white;
+}
+.contact-details li {
+    display: flex;
+    font-size: 0.75rem;
+    White-space: nowrap;
+    color: white;
+}
+
+.contact-details >li >img {
+    padding:0 10px 10px 0;
+}
+.contact-details >li >p{
+    font-size: 0.75rem;
+}
+.skills-item{
+    margin: 30px 0 0 0;
+}
+.skills{
+    color: white;
+    font-size: 1rem;
+    padding: 0 0 0.5rem 0;
+    text-transform: uppercase;
+}
+.skill-name{
+    font-size: 0.65rem;
+    text-align: left;
+    padding: 0 0 0.2rem 0;
+    color: white;
+    
+}
+    #bar{
+    height: 5px;
+    border: 1px solid whites;
+    background-color: white;
+    background-color: #fff;
+    margin: 0 0 4px 0;
+} 
+.progress-bar-DSA {
+    width: 95%;
+}
+.progress-bar-HTML {
+    width: 90%;
+}
+.progress-bar-CSS {
+    width: 80%;
+}
+
+.progress-bar-JS {
+    width: 76%;
+}
+.progress-bar-React {
+    width: 70%;
+}
+.right-main-content {
+    padding: 5rem 3rem;
+}
+#other{
+margin: 30px 0 0 0;
+}
+  .skill-item-box {
+    opacity: 90%;
+    margin:0 0 1em 0;
+    padding: 0.25em 1em;
+    background-color:   rgb(94, 157, 171);
+    background-size: 10px 10px;
+    color: white;
+    border-radius: 7px;
+    width: 180px ;
+    height: 28px;
+    display: flex;
+    justify-content: left;
+}
+.skills-description{
+    font-size: 13px;
+    font-weight:700 ;
+}
+
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.about, .education , .experience , .project{
+    padding-bottom: 10px;
+}
+
+.education-item, .experience-item, .porject-item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.experience-details, .education-details, .porject-details {
+    width: 70%;
+}
+.university-year, .compony {
+    width: 26%;
+}
+
+
+.list > li {
+    margin-left: 30px;
+    list-style-type: disc;
+}
+#heading{
+    position: relative;
+    right: 9px;
+}
