@@ -107,27 +107,26 @@ section {
     color: white;
     
 }
-    #bar{
+.progress-bar{
     height: 5px;
     border: 1px solid whites;
-    background-color: white;
     background-color: #fff;
     margin: 0 0 4px 0;
 } 
-.progress-bar-DSA {
+#DSA {
     width: 95%;
 }
-.progress-bar-HTML {
+#HTML{
     width: 90%;
 }
-.progress-bar-CSS {
+#CSS {
     width: 80%;
 }
 
-.progress-bar-JS {
+#JS {
     width: 76%;
 }
-.progress-bar-React {
+#React {
     width: 70%;
 }
 .right-main-content {
@@ -186,4 +185,9 @@ margin: 30px 0 0 0;
 #heading{
     position: relative;
     right: 9px;
+}
+@media screen and (max-width: 673px) {
+    .main-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
